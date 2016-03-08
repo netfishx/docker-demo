@@ -1,0 +1,9 @@
+image: daocloud/ci-golang:1.4
+services:
+    - mysql
+env:
+    - NODE_ENV = "development"
+script:
+    - npm i
+    - npm start
+    
